@@ -31,9 +31,9 @@ This diagram shows the interaction between the client, server, database, and SSL
 
 # 3. Python Code Explanations
 The system is implemented using Python, leveraging various libraries for multi-threading, secure communication, and database interaction. The following sections explain key parts of the code:
-Server Implementation (server.py):
+### Server Implementation (server.py):
 
-Client Implementation (client.py):
+### Client Implementation (client.py):
 # 4. Test Cases and Results
 ## The system has been tested to ensure functionality and security.
 Test Case 1: Client-Server Communication
