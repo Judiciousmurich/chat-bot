@@ -37,21 +37,21 @@ Client Implementation (client.py):
 # 4. Test Cases and Results
 ## The system has been tested to ensure functionality and security.
 Test Case 1: Client-Server Communication
-#### Test: Send a message from the client ("What is malaria?") to the server.
-#### Expected Result: The server returns "Malaria is a disease caused by a parasite transmitted by mosquitoes."
-### Result: Pass.
+#### Test: Send a message from the client ("What is malaria?") to the server.
+#### Expected Result: The server returns "Malaria is a disease caused by a parasite transmitted by mosquitoes."
+### Result: Pass.
 ## Test Case 2: Multiple Client Connections
-#### Test: Simultaneously send requests from multiple clients.
-#### Expected Result: The server handles multiple connections without errors, providing each client with an appropriate response.
-### Result: Pass.
+#### Test: Simultaneously send requests from multiple clients.
+#### Expected Result: The server handles multiple connections without errors, providing each client with an appropriate response.
+### Result: Pass.
 ## Test Case 3: SSL/TLS Encryption
-#### Test: Intercept the communication between client and server.
-#### Expected Result: The data is encrypted, ensuring that the messages cannot be read without decryption.
-###  Result: Pass.
+#### Test: Intercept the communication between client and server.
+#### Expected Result: The data is encrypted, ensuring that the messages cannot be read without decryption.
+###  Result: Pass.
 ## Test Case 4: Fault Tolerance (Server Failure Simulation)
-#### Test: Simulate a server crash after handling a client request.
-#### Expected Result: The system should be able to handle a restart and continue without data loss, as long as the database and application state are preserved.
-### Result: Pass (after implementing basic error handling).
+#### Test: Simulate a server crash after handling a client request.
+#### Expected Result: The system should be able to handle a restart and continue without data loss, as long as the database and application state are preserved.
+### Result: Pass (after implementing basic error handling).
 
 # Conclusion
 The Distributed Chatbot System successfully meets the requirements of scalability, security, and fault tolerance. The system is capable of handling multiple clients simultaneously, processing messages in parallel, and ensuring secure communication. Future improvements can focus on expanding the chatbot's functionality with advanced natural language processing techniques and further enhancing fault tolerance for larger-scale systems.
